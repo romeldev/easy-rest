@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   ssr: true,
+  app: {
+    baseURL: '/easy-rest/'
+  },
   nitro: {
     preset: 'static'
   }
