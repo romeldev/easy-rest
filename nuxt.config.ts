@@ -11,8 +11,6 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   supabase: {
-    redirect: false,
-    url: process.env.SUPABASE_URL || 'https://placeholder.supabase.co',
-    key: process.env.SUPABASE_KEY || 'placeholder-key'
+    redirect: false
   }
 })
